@@ -1,10 +1,9 @@
-
 //import java.util.*;
 //import fi.jyu.mit.ohj2.Syotto;
 
 
-/*sisŠltŠŠ pelikentŠn
-arpoo uuden int x int pelikentŠn, siten ettŠ mšrrymšykky ja kuoppa eri ruuduissa
+/*sisaltaa pelikentan
+arpoo uuden int x int pelikentan, siten etta morrimoykky ja kuoppa eri ruuduissa
 osaa kertoa kysytyn ruudun ominaisuuden
 Avustajat: taulukko
 */

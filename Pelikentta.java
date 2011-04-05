@@ -35,11 +35,11 @@ public class Pelikentta {
 	
 	int get_ruutuInfo(int x,int y) {
 		System.out.println(kentta[0][0]);
-		//if (kentta[2][2] == MORRI)
-		//	return MORRI;
-		//else if (kentta[2][2] == KUOPPA)
-		//	return KUOPPA;
-		return 0;
+		if (kentta[x][y] == MORRI)
+			return MORRI;
+		else if (kentta[x][y] == KUOPPA)
+			return KUOPPA;
+		return TYHJA;
 	}
 	
 	void arpoo(){
@@ -54,7 +54,10 @@ public class Pelikentta {
 	public static void main(String[] args) {
 		System.out.println("Pelikentta kokeilu");
 		Pelikentta ekapeli = new Pelikentta(4);
-		System.out.println("osuko? "+ ekapeli.get_ruutuInfo(2,2));
+		if (ekapeli.get_ruutuInfo(0,2) == 1)
+			System.out.println("OSUMA");
+		else 
+			System.out.println("HUTI");
 		
 	}
 

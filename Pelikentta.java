@@ -20,7 +20,7 @@ public class Pelikentta {
 
 	
 	Pelikentta(int koko) {
-		int[][] kentta = new int[koko][koko];
+		kentta = new int[koko][koko];
 		for (int rivi=0; rivi<kentta.length; ++rivi)   // alustaa kentan nollilla
 		      for (int sarake=0; sarake<kentta[rivi].length; ++sarake) 
 		    	  kentta[rivi][sarake] = 0;
